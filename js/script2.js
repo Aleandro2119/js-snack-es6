@@ -6,3 +6,13 @@ Generare numeri random al posto degli 0 nelle proprietà:
 Punti fatti e falli subiti.
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
 
+
+// ! Creo array squadre (PUNTO 1)
+
+const squad = [
+    { nome: 'As Roma', punti_fatti: '0', falli_subiti: '0' },
+    { nome: 'Milan', punti_fatti: '0', falli_subiti: '0' },
+    { nome: 'Inter', punti_fatti: '0', falli_subiti: '0' },
+    { nome: 'Juventus', punti_fatti: '0', falli_subiti: '0' },
+    { nome: 'Fiorentina', punti_fatti: '0', falli_subiti: '0' },
+]
