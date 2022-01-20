@@ -15,4 +15,28 @@ const squad = [
     { nome: 'Inter', punti_fatti: '0', falli_subiti: '0' },
     { nome: 'Juventus', punti_fatti: '0', falli_subiti: '0' },
     { nome: 'Fiorentina', punti_fatti: '0', falli_subiti: '0' },
+
 ]
+
+console.log(squad);
+
+// ! Funzione per numeri random
+
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+// ! Genero numeri che andranno inseriti nella voce punti_fatti e falli_subiti (PUNTO 2)
+
+let falli_subiti;
+let punti_fatti;
+
+for (let i = 0; i < squad.length; i++) {
+    let currentNum = squad[i];
+    falli_subiti = getRandomNumber(1, 150);
+    punti_fatti = getRandomNumber(1, 114);
+
+    currentNum.falli_subiti = falli_subiti;
+    currentNum.punti_fatti = punti_fatti;
+}
+
+console.log(squad);
+
