@@ -18,3 +18,14 @@ const bike = [
 
 
 console.log(bike);
+
+
+// ! Stampo in console la bici col peso minore (PUNTO 2)
+
+
+const { peso } = bike[2];
+console.log(`La bici con il minor peso è ${bike[2].nome} grazie al peso di`, peso);
+
+
+const minWeight = bike[2];
+console.log(`La bici con il minor peso è ${bike[2].nome} grazie al peso di`, minWeight.peso);
