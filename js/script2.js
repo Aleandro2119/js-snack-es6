@@ -40,3 +40,23 @@ for (let i = 0; i < squad.length; i++) {
 
 console.log(squad);
 
+//! Creo un nuovo array che contiene solo nome e falli_subiti come elementi (PUNTO 3)
+
+const newSquad = [];
+
+for (let i = 0; i < squad.length; i++) {
+    let currentNum = squad[i];
+    const { nome, falli_subiti } = currentNum;
+    const newElement = {
+        nome: nome,
+        falli_subiti: falli_subiti,
+
+    }
+
+    newSquad.push(newElement);
+
+}
+
+console.log(newSquad);
+
+
