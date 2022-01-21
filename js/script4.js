@@ -24,3 +24,16 @@ console.log(students);
 const uppercase = students.map(student => student.nome.charAt(0).toUpperCase() + student.nome.substring(1).toLowerCase());
 
 console.log(uppercase);
+
+
+// ! Creo una lista con gli studenti che hanno un totale di voti superiore a 70 (PUNTO 3) // Con un ciclo map
+
+const vote = students.map((voto => {
+
+    if (voto.somma_voti > 70) {
+        return voto;
+    }
+
+}));
+
+console.log(vote);
