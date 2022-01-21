@@ -16,3 +16,11 @@ const students = [
     { nome: 'Andrea', id: 145, somma_voti: 57 },
     { nome: 'Davide', id: 876, somma_voti: 120 },
 ]
+
+console.log(students);
+
+// ! Modifico il loro nome in maiuscolo (PUNTO 2)
+
+const uppercase = students.map(student => student.nome.charAt(0).toUpperCase() + student.nome.substring(1).toLowerCase());
+
+console.log(uppercase);
