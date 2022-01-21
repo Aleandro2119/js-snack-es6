@@ -37,3 +37,16 @@ const vote = students.map((voto => {
 }));
 
 console.log(vote);
+
+
+// ! Creo una lista con gli studenti che hanno un totale di voti superiore a 70 e un id superiore a 120 (PUNTO 4)
+
+const voteId = students.map((votoId => {
+
+    if (votoId.id > 120 && votoId.somma_voti > 70) {
+        return votoId;
+    }
+
+}));
+
+console.log(voteId);
