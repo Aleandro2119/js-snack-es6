@@ -9,12 +9,12 @@ ES (marco de iulio => Marco de iulio);
 // ! Creo elenco studenti (PUNTO 1)
 
 const students = [
-    { nome: 'Aleandro', id: 234, somma_voti: 70 },
-    { nome: 'Matteo', id: 596, somma_voti: 100 },
-    { nome: 'Marco', id: 128, somma_voti: 40 },
-    { nome: 'Simone', id: 300, somma_voti: 60 },
-    { nome: 'Andrea', id: 145, somma_voti: 57 },
-    { nome: 'Davide', id: 876, somma_voti: 120 },
+    { nome: 'aleandro', id: 234, somma_voti: 70 },
+    { nome: 'matteo', id: 596, somma_voti: 100 },
+    { nome: 'marco', id: 128, somma_voti: 40 },
+    { nome: 'simone', id: 300, somma_voti: 60 },
+    { nome: 'andrea', id: 145, somma_voti: 57 },
+    { nome: 'davide', id: 876, somma_voti: 120 },
 ]
 
 console.log(students);
