@@ -28,7 +28,7 @@ console.log(uppercase);
 
 // ! Creo una lista con gli studenti che hanno un totale di voti superiore a 70 (PUNTO 3) // Con un ciclo map
 
-const vote = students.map((voto => {
+const vote = students.filter((voto => {
 
     if (voto.somma_voti > 70) {
         return voto;
@@ -41,7 +41,7 @@ console.log(vote);
 
 // ! Creo una lista con gli studenti che hanno un totale di voti superiore a 70 e un id superiore a 120 (PUNTO 4)
 
-const voteId = students.map((votoId => {
+const voteId = students.filter((votoId => {
 
     if (votoId.id > 120 && votoId.somma_voti > 70) {
         return votoId;
